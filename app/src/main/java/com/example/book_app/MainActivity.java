@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void prikaziOsebe(View view){
+    public  void prikaziOsebe(View view){
         if (view != null){
             JsonArrayRequest request = new JsonArrayRequest(url, jsonArrayListener, errorListener)
             {
