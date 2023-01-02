@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             JsonArrayRequest request = new JsonArrayRequest(url, jsonArrayListener, errorListener)
             {
                 @Override
-                public Map<String, String> getHeaders () throws AuthFailureError
+                public Map<String,String> getHeaders() throws AuthFailureError
                 {
                     Map<String, String> params = new HashMap<String, String>();
                     params.put("ApiKey", "SecretKey");
